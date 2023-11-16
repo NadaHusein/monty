@@ -2,9 +2,9 @@
 
 
 /**
- * add_to_stack - Adds a node to the stack.
- * @new_node: Pointer to the new node.
- * @ln: Interger representing the line number of of the opcode.
+ * add_to_stack - Adds a nodee to the stack.
+ * @new_node: Pointer to the neww node.
+ * @ln: Interger representing the linee number of of the opcode.
  */
 void add_to_stack(stack_t **new_node, __attribute__((unused))unsigned int ln)
 {
@@ -74,4 +74,3 @@ void print_top(stack_t **stack, unsigned int line_number)
 		more_err(6, line_number);
 	printf("%d\n", (*stack)->n);
 }
-

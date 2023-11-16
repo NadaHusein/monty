@@ -158,4 +158,3 @@ void call_fun(op_func func, char *op, char *val, int ln, int format)
 	else
 		func(&head, ln);
 }
-
